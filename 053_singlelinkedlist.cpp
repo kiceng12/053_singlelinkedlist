@@ -27,7 +27,12 @@ void addNode() {
 			return;
 		}
 
+		nodeBaru->next = START;
+		START = nodeBaru;
+		return;
 	}
+
+	
 
 }
 
